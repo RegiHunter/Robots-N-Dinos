@@ -1,4 +1,8 @@
 
 class Herd:
-    def __init__(self) :
-        pass
+
+    def __init__(self, dinos) :
+        self.dinos = dinos
+
+        
+

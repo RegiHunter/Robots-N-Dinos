@@ -1,4 +1,10 @@
 class Weapon :
-    def __init__(self):
-        self.name = ("Wild Wall-E Cannon")
-        self.attack_power = 300
+    
+    def __init__(self, name, attack_power):
+            self.name = name
+            self.attack_power = attack_power
+
+    
+
+
+    
