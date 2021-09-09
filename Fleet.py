@@ -1,10 +1,27 @@
 from robot import Robot
-from weapon import 
+from weapon import Weapon
 
 class Fleet:
 
     def __init__(self) :
-        pass
+        self.robots = []
+        self.create_fleet()
 
-fleet_one = Robot("Wall-E", 1500, ww_cannon)
+    def create_fleet(self):
+        ww_cannon =  Weapon("Wild Wall-E Cannon", 1000)
+        orbital_strike = Weapon("Rapid-Fire Orbital strike", 600)
+        gat_gun = Weapon("Mega Gatling Gun", 400)
+        walle = Robot("Wall-E", ww_cannon)
+        ultron = Robot("Ultron", orbital_strike )
+        optimus = Robot("Opimus Prime", gat_gun)
 
+        self.robots.append(walle)
+        self.robots.append(ultron)
+        self.robots.append(optimus)
+
+
+
+
+
+
+    
