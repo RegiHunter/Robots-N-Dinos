@@ -1,4 +1,5 @@
-from dino import Dino 
+from dino import Dino
+ 
 
 class Herd:
 
@@ -8,9 +9,9 @@ class Herd:
         self.create_herd()
 
     def create_herd(self):
-        raptor = Dino("Utah Raptor", 1000)
-        trex = Dino("Tyrannosaurus", 800)
-        giga = Dino("Giganotosaurus", 600)
+        raptor = Dino("Utah Raptor", 40)
+        trex = Dino("Tyrannosaurus", 60)
+        giga = Dino("Giganotosaurus", 50)
 
         self.dinos.append(raptor)
         self.dinos.append(trex)

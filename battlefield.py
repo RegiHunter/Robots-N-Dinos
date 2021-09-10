@@ -13,7 +13,22 @@ class Battlefield:
     def display_welcom(self):
         pass
     def battle(self):
-        pass
+        battle = [Dino.attack(), Robot.attack()]
+        conclusion = print(battle)
+        return conclusion
+
+While (Battlefield.battle())
+    if Dino.health == 0 :
+            win1 = print("Robots Win!")
+            return win1
+        
+    elif Robot.health == 0 :
+            win2 = print("Dinosaurs Win!")
+            return 
+        
+        
+
+            
     def dino_turn(self, Dino):
         pass
     def robo_turn(self, Robot):
