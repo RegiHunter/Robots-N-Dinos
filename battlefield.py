@@ -13,7 +13,7 @@ class Battlefield:
     def display_welcom(self):
         pass
     def battle(self):
-        battle = [Dino.attack(), Robot.attack()]
+        battle = [Dino.attack(Robot), Robot.attack(Dino)]
         conclusion = print(battle)
         return conclusion
 
@@ -24,7 +24,7 @@ While (Battlefield.battle())
         
     elif Robot.health == 0 :
             win2 = print("Dinosaurs Win!")
-            return 
+            return win2
         
         
 
